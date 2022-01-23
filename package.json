@@ -1,0 +1,27 @@
+{
+    "name": "minitranslatetool",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node-dev src/main.ts"
+    },
+    "bin": {
+        "fy": "dist/cli.js"
+    },
+    "files": [
+        "dist/**/*.js"
+    ],
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^8.3.0",
+        "md5": "^2.3.0"
+    },
+    "devDependencies": {
+        "@types/md5": "^2.3.1",
+        "@types/node": "^17.0.10"
+    }
+}

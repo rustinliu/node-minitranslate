@@ -1,0 +1,4 @@
+/src/private.ts
+/dist/
+/node_modules/
+.DS_store
